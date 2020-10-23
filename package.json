@@ -11,7 +11,7 @@
     "npm-package": "npm pack"
   },
   "publishConfig": {
-    "registry": "http://artifactory.cobalt.com/artifactory/api/npm/npm-repo"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
