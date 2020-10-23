@@ -36,6 +36,7 @@ npm install @cdkglobal/flexdoc-cli -g
 
 - Terminal will present with prompt to select Sahih Hadith Volume :
 
+![Demo](https://user-images.githubusercontent.com/20770645/97002465-aa64c180-1557-11eb-95e5-74a15f4af207.gif)
 ```
    ____            _       _   _         ____            _      _                      _
   / ___|    __ _  | |__   (_) | |__     | __ )   _   _  | | __ | |__     __ _   _ __  (_)
