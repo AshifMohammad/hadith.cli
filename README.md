@@ -31,7 +31,7 @@ node version -v || node --version > 10.10.0
 Install:
 
 ```sh
-npm install @cdkglobal/flexdoc-cli -g
+npm install hadith-cli -g
 ```
 
 - Terminal will present with prompt to select Sahih Hadith Volume :
