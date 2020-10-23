@@ -1,22 +1,2 @@
 #!/usr/bin/env node
-const chalk = require("chalk");
-const clear = require("clear");
-const figlet = require("figlet");
-const { findHadith } = require("../lib/hadithProcessor");
-const { circularProgress } = require("../lib/utilities");
-console.log(
-  chalk.yellow(
-    figlet.textSync(" Bissmillah !!!", {
-      horizontalLayout: "full",
-      font: "Standard",
-      width: 200,
-      whitespaceBreak: true,
-    })
-  )
-);
-circularProgress.start();
-
-setTimeout(() => {
-  findHadith();
-  circularProgress.stop();
-}, 1000);
+const chalk=require("chalk"),clear=require("clear"),figlet=require("figlet"),{findHadith:findHadith}=require("../lib/hadithProcessor"),{circularProgress:circularProgress}=require("../lib/utilities");console.log(chalk.yellow(figlet.textSync(" Bissmillah !!!",{horizontalLayout:"full",font:"Standard",width:200,whitespaceBreak:!0}))),circularProgress.start(),setTimeout(()=>{findHadith(),circularProgress.stop()},1e3);
