@@ -1,5 +1,5 @@
 {
-  "name": "@bissmillah/hadith-cli",
+  "name": "hadith-cli",
   "version": "1.0.0",
   "description": "This is a CLI for hadith on terminal",
   "main": "bin/bissmillah.js",
