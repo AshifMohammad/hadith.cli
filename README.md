@@ -22,10 +22,10 @@ This project aims to fully implement the vital information related to Sahih Musl
 
 ## Quick Start - Node.js
 
-- This is available only for internal user so please set your npm registry to cobalt.
+- It is recommended that your system node version should be higher than 10.10.0
 
 ```shell script
-node version > 10.10.0
+node version -v || node --version > 10.10.0
 ```
 
 Install:
@@ -37,6 +37,7 @@ npm install @cdkglobal/flexdoc-cli -g
 - Terminal will present with prompt to select Sahih Hadith Volume :
 
 ![Demo](https://user-images.githubusercontent.com/20770645/97002465-aa64c180-1557-11eb-95e5-74a15f4af207.gif)
+
 ```
    ____            _       _   _         ____            _      _                      _
   / ___|    __ _  | |__   (_) | |__     | __ )   _   _  | | __ | |__     __ _   _ __  (_)
