@@ -1,0 +1,49 @@
+{
+  "name": "@bissmillah/hadith-cli",
+  "version": "1.0.0",
+  "description": "This is a CLI for hadith on terminal",
+  "main": "bin/bissmillah.js",
+  "scripts": {
+    "precommit": "lint-staged",
+    "prepush": "prettier --check",
+    "verify:prettier": "node_modules/prettier/bin-prettier.js lib/  --check",
+    "format": "node_modules/prettier/bin-prettier.js lib/  --write",
+    "npm-package": "npm pack"
+  },
+  "publishConfig": {
+    "registry": "http://artifactory.cobalt.com/artifactory/api/npm/npm-repo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AshifMohammad/hadith.cli.git"
+  },
+  "bin": {
+    "hadith": "bin/bissmillah.js"
+  },
+  "keywords": [
+    "cli",
+    "bissmillah",
+    "node",
+    "hadith"
+  ],
+  "author": "Ashif Zafar",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "cli-table": "^0.3.1",
+    "clui": "^0.3.6",
+    "commander": "^6.1.0",
+    "compare-versions": "^3.6.0",
+    "configstore": "^5.0.1",
+    "enquirer": "^2.3.6",
+    "figlet": "^1.5.0",
+    "gradient-string": "^1.2.0",
+    "inquirer": "^7.3.3",
+    "minimist": "^1.2.5",
+    "ora": "^5.1.0",
+    "prettier": "^2.1.2",
+    "simple-git": "^2.21.0",
+    "touch": "^3.1.0"
+  }
+}
